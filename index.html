@@ -8,27 +8,36 @@
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+  <main class="container">
+    <img src="./images/logo.svg" alt="ping-logo" class="ping-logo">
+    <h1 class="title">We are launching soon!</h1>
+    <p class="description">Subscribe and get notified</p>
 
-  We are launching soon!
+    <div class="subscribe">
+      <input type="email" class="subscribe__input">
+      <button class="subscribe__button">Notify Me</button>
+    </div>
 
-  Subscribe and get notified
+    <img src="./images/illustration-dashboard.png" alt="" class="ping-dashboard">
+  </main>
 
-  Notify Me
+  <footer class="socials">
+    <div class="socials__logos">
+      <img src="./images/facebook-f.svg" alt="fb" class="socials__logos__facebook" height="24px">
+      <img src="./images/twitter.svg" alt="tw" class="socials__logos__twitter" height="24px">
+      <img src="./images/instagram.svg" alt="ig" class="socials__logos__instagram" height="24px">
+    </div>
+    <p class="socials__copyright">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
 
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
