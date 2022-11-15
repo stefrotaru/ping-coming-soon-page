@@ -13,12 +13,16 @@
 <body>
   <main class="container">
     <img src="./images/logo.svg" alt="ping-logo" class="ping-logo">
-    <h1 class="title">We are launching soon!</h1>
+    <h1 class="title">We are launching <span class="bold">soon!</span></h1>
     <p class="description">Subscribe and get notified</p>
 
     <div class="subscribe">
-      <input type="email" class="subscribe__input">
+      <div class="input-container">
+        <input type="email" placeholder="Your email address..." class="subscribe__input">
+      </div>
       <button class="subscribe__button">Notify Me</button>
+      <span class="subscribe__input-error hide">Please provide a valid email address</span>
+      <!-- <p class="subscribe__input-error">Please provide a valid email address</p> -->
     </div>
 
     <img src="./images/illustration-dashboard.png" alt="" class="ping-dashboard">
@@ -26,9 +30,9 @@
 
   <footer class="socials">
     <div class="socials__logos">
-      <img src="./images/facebook-f.svg" alt="fb" class="socials__logos__facebook" height="24px">
-      <img src="./images/twitter.svg" alt="tw" class="socials__logos__twitter" height="24px">
-      <img src="./images/instagram.svg" alt="ig" class="socials__logos__instagram" height="24px">
+      <img src="./images/facebook-f.svg" alt="fb" class="socials__logo" height="24px">
+      <img src="./images/twitter.svg" alt="tw" class="socials__logo" height="24px">
+      <img src="./images/instagram.svg" alt="ig" class="socials__logo" height="24px">
     </div>
     <p class="socials__copyright">&copy; Copyright Ping. All rights reserved.</p>
   </footer>
